@@ -24,11 +24,11 @@ tool_wear = st.number_input("Tool Wear (min)", min_value=0, max_value=300, value
 
 # Assemble input into DataFrame
 input_data = pd.DataFrame([{
-    'Air_temperature': air_temp,
-    'Process_temperature': process_temp,
-    'Rotational_speed': rot_speed,
+    'Air temperature': air_temp,
+    'Process temperature': process_temp,
+    'Rotational speed': rot_speed,
     'Torque': torque,
-    'Tool_wear': tool_wear,
+    'Tool wear': tool_wear,
     'Type': Type
 }])
 
